@@ -1,0 +1,170 @@
+@transparent-bg: rgba(200, 200, 200, 0.125);
+@orange-bg: #C84F00;
+@main-bg: #F2E9D6;
+@main-row-bg: #EBE2CF;
+@boxes_bg_1: #810000;
+@boxes_bg_2: #94700C;
+@boxes_bg_3: #258533;
+@text_color_1: white;
+@text_color_2: black;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    font-family: "Open Sans",sans-serif;
+    background-image: url(img/caniuse-bg.png);
+    div{
+        padding: 0 50px;
+        header{
+            margin-bottom: 20px;
+            ul{
+                li{
+                    display: inline-block;
+                    
+                    background-color: @transparent-bg;
+                    color: @text_color_1;
+                    padding: 15px 20px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        div{
+            padding: 0;
+            text-align: center;
+            color: @text_color_1;
+            font-size: 18px;
+            margin-bottom: 30px;
+            
+            h2{
+                background-color: @orange-bg;
+                padding: 20px 40px;
+            }
+            
+            span{
+                border-bottom: 1px solid @text_color_1;
+                padding:0 120px;
+            }
+        }
+
+        main{
+            background-color: @main-bg;
+            article{
+                width: 400px;
+                
+                padding: 10px;
+                align-items: top;
+                line-height: 22px;
+                h2{
+                    margin-bottom: 15px;
+
+                    span{
+                        position: absolute;
+                        color: @text_color_1;
+                        margin: 0 -37.5px;
+                        background-color: @orange-bg;
+                        padding: 6px;
+                    }
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+
+            #browsers{
+                height: 200px;
+                div{
+                    margin-top: 20px;
+                    display: inline-block;
+                    vertical-align: top;
+                    background-color: @main-row-bg;
+                    ul{
+                        li{
+                            list-style: none;
+                            width: 55px;
+                            font-size: 12px;
+                            height: 15px;
+                            padding: 5px;
+                            color: @text_color_1;
+                            text-align: center;
+                            vertical-align: middle;
+                            margin: 0 0 3px 0;
+
+                            div{
+                                position: absolute;
+                                width: 12px;
+                                height: 6px;
+                                margin: -3px 0 0 -24px;
+                                font-size: 5px;
+                                padding-top: 2px 0 0 0;
+                                background-color: @main-row-bg;
+                                color: @text_color_2;
+                                
+                                p{
+                                    display: inline-block;
+                                }
+                            }
+
+                            .two_numbers{
+                                margin: -3px 0 0 -12px;
+                            }
+
+                            #one_hun{
+                                margin: -3px 0 0 -8px;
+                            }
+                        }
+
+                        .boxes_green_bg{
+                            background-color: @boxes_bg_3;
+                        }
+
+                        .boxes_yellow_bg{
+                            background-color: @boxes_bg_2;
+                        }
+
+                        .boxes_red_bg{
+                            background-color: #810000;
+                        }
+
+                        .browsers{
+                            border-bottom: 3px solid @text_color_2;
+                            color: @text_color_2;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .two_liner_row{
+                    margin-top: 9px;
+                }
+                
+                .three_liner_row{
+                    margin: 0;
+                }
+                .two_lines{
+                    padding-bottom: 16px;
+                }
+
+                #three_lines{
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
+
+#news_browser_space{
+    margin-right: 285px;
+}
+
+h2{
+    margin: 0;
+}
+
+
+

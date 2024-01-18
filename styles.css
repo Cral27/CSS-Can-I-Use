@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+#container {
+  width: 900px;
+  height: 600px;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(img/caniuse-bg.png);
+}
+#container div {
+  padding: 0 50px;
+}
+#container div header {
+  margin-bottom: 20px;
+}
+#container div header ul li {
+  display: inline-block;
+  background-color: rgba(200, 200, 200, 0.125);
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+#container div div {
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+#container div div h2 {
+  background-color: #C84F00;
+  padding: 20px 40px;
+}
+#container div div span {
+  border-bottom: 1px solid white;
+  padding: 0 120px;
+}
+#container div main {
+  background-color: #F2E9D6;
+}
+#container div main article {
+  width: 400px;
+  padding: 10px;
+  align-items: top;
+  line-height: 22px;
+}
+#container div main article h2 {
+  margin-bottom: 15px;
+}
+#container div main article h2 span {
+  position: absolute;
+  color: white;
+  margin: 0 -37.5px;
+  background-color: #C84F00;
+  padding: 6px;
+}
+#container div main article p {
+  font-size: 15px;
+}
+#container div main #browsers {
+  height: 200px;
+}
+#container div main #browsers div {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #EBE2CF;
+}
+#container div main #browsers div ul li {
+  list-style: none;
+  width: 55px;
+  font-size: 12px;
+  height: 15px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 3px 0;
+}
+#container div main #browsers div ul li div {
+  position: absolute;
+  width: 12px;
+  height: 6px;
+  margin: -3px 0 0 -24px;
+  font-size: 5px;
+  padding-top: 2px 0 0 0;
+  background-color: #EBE2CF;
+  color: black;
+}
+#container div main #browsers div ul li div p {
+  display: inline-block;
+}
+#container div main #browsers div ul li .two_numbers {
+  margin: -3px 0 0 -12px;
+}
+#container div main #browsers div ul li #one_hun {
+  margin: -3px 0 0 -8px;
+}
+#container div main #browsers div ul .boxes_green_bg {
+  background-color: #258533;
+}
+#container div main #browsers div ul .boxes_yellow_bg {
+  background-color: #94700C;
+}
+#container div main #browsers div ul .boxes_red_bg {
+  background-color: #810000;
+}
+#container div main #browsers div ul .browsers {
+  border-bottom: 3px solid black;
+  color: black;
+  font-weight: bold;
+}
+#container div main #browsers .two_liner_row {
+  margin-top: 9px;
+}
+#container div main #browsers .three_liner_row {
+  margin: 0;
+}
+#container div main #browsers .two_lines {
+  padding-bottom: 16px;
+}
+#container div main #browsers #three_lines {
+  height: 35px;
+}
+#news_browser_space {
+  margin-right: 285px;
+}
+h2 {
+  margin: 0;
+}
